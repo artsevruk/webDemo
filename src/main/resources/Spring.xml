@@ -11,6 +11,9 @@
 
     <bean id="eventLoger" class="com.example.demo.ConsoleEventLogger"/>
 
-    <bean id="app" class="com.example.demo.App"/>
+    <bean id="app" class="com.example.demo.App">
+        <constructor-arg ref = "client"/>
+        <constructor-arg ref = "eventLoger"/>
+    </bean>
 
 </beans>
