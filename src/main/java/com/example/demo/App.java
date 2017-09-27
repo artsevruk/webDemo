@@ -1,12 +1,14 @@
 package com.example.demo;
-
+/*
+commit
+ */
 public class App {
 
     private Client client;
     private ConsoleEventLogger eventLogger;
 
     public App() {
-        this.client = new Client();
+        //this.client = new Client();
         this.eventLogger = new ConsoleEventLogger();
     }
 
